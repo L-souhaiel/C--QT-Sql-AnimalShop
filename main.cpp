@@ -14,6 +14,7 @@
 #include"loginwindow.h"
 
 
+//this an Animal shop GUI program based on C++ , QT , and SQL
 
 int main ( int argc , char * argv[])
 
