@@ -25,7 +25,7 @@ Adminsection::Adminsection()
     layout_sel->addWidget(turnover);
 
     layout_select->addLayout(layout_sel);
-    QPixmap image("/home/louati/Documents/layout/Adminstarteur.png");
+    QPixmap image("/home/louati/Studium/Linux/C++/QT/Cplusplus-QT-Sql-Animalshop/C--QT-Sql-AnimalShop/Adminstarteur.png");
     QLabel *imageLabel = new QLabel();
     imageLabel->setPixmap(image);
     layout_select->addWidget(imageLabel);

@@ -13,7 +13,7 @@ PrincipalWindow::PrincipalWindow()
   setWindowTitle(" S/J Animal Shop GmbH");
   setFixedSize(800,400);
 
-  QPixmap image("/home/louati/Documents/layout/pet.png");
+  QPixmap image("/home/louati/Studium/Linux/C++/QT/Cplusplus-QT-Sql-Animalshop/C--QT-Sql-AnimalShop/pet.png");
   QLabel *imageLabel = new QLabel();
   imageLabel->setPixmap(image);
 

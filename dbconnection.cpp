@@ -5,10 +5,10 @@ dbConnection::dbConnection()
 {
 
     m_db = QSqlDatabase::addDatabase("QMYSQL");
-    m_db.setHostName("...");
-    m_db.setUserName("...");
-    m_db.setPassword("....");
-    m_db.setDatabaseName(".....");
+    m_db.setHostName("localhost");
+    m_db.setUserName("louati");
+    m_db.setPassword("sui564Sneg564S!");
+    m_db.setDatabaseName("elevage");
     m_db.open();
 
 }
