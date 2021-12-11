@@ -71,8 +71,7 @@ getAngle
             gets the current combined (accelerometer and gyroscope) angle
             NOTE: the yaw axis will return 0 unless 'calc_yaw' i set to true - See Parameters
 
-# Parameters:
-    
+# Parameters:   
 calc_yaw
         type:
             bool
