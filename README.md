@@ -2,6 +2,7 @@
 
 ## Description
 
+
     This is a basic control library for using the MPU6050 accelerometer and gyroscope module with Raspberry Pi using i2c protocol
     It provides functions to read raw accelerometer data and fully corrected (with complementary filters and some logic) angles on any axis (roll, pitch, yaw)
 
@@ -14,14 +15,14 @@ Function Definitions
 ## constructor (MPU6050)
        
        
-       args:
+      ** args **:
             int8_t addr - the address of the MPU6050 (usually 0x68; can find with command "i2cdetect -y 1" (may need to be installed - run "sudo apt-get install i2c-tools -y")
       
-      description:
+     ** description **:
             sets up i2c device and starts loop to read the angle
     
-getAccelRaw
-        args:
+### getAccelRaw
+        ** args **:
             float *x - pointer to the variable where the X axis results should be stored
             float *y - pointer to the variable where the Y axis results should be stored
             float *z - pointer to the variable where the Z axis results should be stored
