@@ -7,6 +7,7 @@
 
 ## Installation
 
+
 The dependencies for this library are libi2c-dev, i2c-tools, and libi2c0. These can be installed with apt. The latest version of this code now works on Raspbian Buster. Note: to run the code, you will need to enable I2C in raspi-config.
 Function Definitions
     
