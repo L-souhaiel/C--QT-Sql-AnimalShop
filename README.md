@@ -26,7 +26,6 @@ choose Normal mode where user can  select the search criteria like which Spicies
 # Dependencies
 
 The minimum Qt version to lunch these Application is 5.13.1. the file lastVersion_sauvegarde.sql have to be installed from Mysql . then the user have to link his 
-
 database coordinates from dbconnection.cpp. 
 
 
