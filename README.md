@@ -32,8 +32,7 @@ database coordinates from dbconnection.cpp.
 
 # Installation
 
-Install Qt Creator last version of Qt . 
-install mysql first.
+Install Qt Creator last version of Qt  Then install mysql from source.
 
 ```
 sudo apt-get install libqt5sql5-mysql
@@ -53,9 +52,9 @@ sudo apt-get install libmysql++-dev
 ```
 sudo apt-get install libmysqlcppconn-dev
 ```
-```
+
 Then user have to add DLL file of Mysql. this can be done on ubuntu like below: 
-```
+
 ```
 
 cd /usr/lib/x86_64-linux-gnu 
