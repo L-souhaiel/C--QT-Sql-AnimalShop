@@ -2,7 +2,9 @@
 
 ## Description
 
-A C++ Desktop Application To manipulate an Animal Shop using QT library and  SQL Relational Data Base.  
+A C++ Desktop Application To manipulate buy and sell of  Animal  using QT library and  SQL Relational Data Base.
+
+!.[Layout].(https://github.com/TitiLouati/C--QT-Sql-AnimalShop/blob/main/AnimalShop.png)
    
 
 ## Installation
