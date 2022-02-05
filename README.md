@@ -1,6 +1,6 @@
 # Animal Shop Desktop App C++ Qt SQL
 
-A C++ Desktop Application To manipulate buy and sell of  Animal  using QT library and  SQL Relational Data Base.
+A desktop application for managing the purchase of various animals. The user interface is made with QT Library in C++ and SQL Relational Database.
 
 ![Layout](https://github.com/TitiLouati/C--QT-Sql-AnimalShop/blob/main/AnimalShop.png)
 
@@ -11,11 +11,11 @@ Assuming That the Database is Already connected to the Application and everythin
 
 ```
 
-choose to sign up / in or to sign as a guest. 
+choose to sign up/in or to sign in as a guest. 
 
-choose Admin mode where user can see profit gain or choose to add or to delete an Animal .
+choose Admin mode where the user can access profit gain or choose to add or to delete an Animal .
 
-choose Normal mode where user can  select the search criteria like which Spicies of Animal , maximal prices , Color , Date of birth and then buy An Animal from given Table.
+choose Normal mode where the user can select the search criteria like which Spicies of Animal , maximal prices , Color , Date of birth and then buy an animal from the list.
 
 
 ```
@@ -25,7 +25,7 @@ choose Normal mode where user can  select the search criteria like which Spicies
 
 # Dependencies
 
-The minimum Qt version to lunch these Application is 5.13.1. the file lastVersion_sauvegarde.sql have to be installed from Mysql . then the user have to link his 
+The minimum Qt version to lunch these Application is 5.13.1. the file lastVersion_sauvegarde.sql have to be uploaded from Mysql . then the user have to link his 
 database coordinates from dbconnection.cpp. 
 
 
